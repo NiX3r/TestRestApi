@@ -8,6 +8,6 @@ import lombok.Setter;
 @AllArgsConstructor
 public class NCGeoLocation {
 	
-	private String Lat, Lng;
+	private String lat, lng;
 	
 }

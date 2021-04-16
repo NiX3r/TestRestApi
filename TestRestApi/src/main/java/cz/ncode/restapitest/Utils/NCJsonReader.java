@@ -13,7 +13,7 @@ public class NCJsonReader {
 		
 		for(NCUser user : users) {
 			
-			System.out.println(user.getName());
+			System.out.println(user.getName() + " >>> " + user.getAddress().getGeo().getLat());
 			
 		}
 		

@@ -10,7 +10,7 @@ public class NCUser {
 
 	private int id;
 	private String name, username, email, phone, website;
-	//private NCAddress Address;
-	//private NCCompany Company;
+	private NCAddress address;
+	private NCCompany company;
 	
 }

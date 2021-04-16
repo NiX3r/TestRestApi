@@ -8,6 +8,6 @@ import lombok.Setter;
 @AllArgsConstructor
 public class NCCompany {
 
-	private String Name, CatchPhrase, BS;
+	private String name, catchPhrase, bs;
 	
 }

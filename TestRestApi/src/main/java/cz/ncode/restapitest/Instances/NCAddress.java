@@ -7,7 +7,7 @@ import lombok.Setter;
 @AllArgsConstructor
 public class NCAddress {
 
-	@Getter @Setter private String Street, Suite, City, ZipCode;
-	@Getter @Setter private NCGeoLocation GeoLoc;
+	@Getter @Setter private String street, suite, city, zipcode;
+	@Getter @Setter private NCGeoLocation geo;
 	
 }
